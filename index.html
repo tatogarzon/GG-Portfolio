@@ -1,0 +1,331 @@
+<!-- This file is intentionally left blank. -->
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gonzalo Garzón – Portfolio</title>
+  <meta name="description" content="Civil Engineer portfolio – Construction Management, Supply Chain, After‑Sales, and Thesis work. Melbourne & Córdoba." />
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand: 28 72 50; } /* emerald tone */
+  </style>
+</head>
+<body class="min-h-screen bg-white text-slate-900 antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <a href="#home" class="font-semibold tracking-wide">Eng. Gonzalo Garzón</a>
+      <nav class="hidden items-center gap-6 md:flex">
+        <a href="#about-title" class="hover:text-emerald-700">About</a>
+        <a href="#melbourne-title" class="hover:text-emerald-700">Now in Melbourne</a>
+        <a href="#experience" class="hover:text-emerald-700">Experience</a>
+        <a href="#projects" class="hover:text-emerald-700"><a href="#thesis" class="hover:text-emerald-700">Thesis</a>
+        <a href="#skills" class="hover:text-emerald-700">Skills</a>
+        <a href="#contact" class="hover:text-emerald-700">Contact</a>
+        <a href="./CV-Gonzalo-Garzon.pdf" class="rounded-xl border border-emerald-700/20 px-3 py-1.5 text-sm text-emerald-800 hover:bg-emerald-50">Download CV</a>
+      </nav>
+      <button id="menuBtn" class="rounded-lg p-2 md:hidden" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6"><path d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+    </div>
+    <nav id="mobileMenu" class="hidden border-t border-slate-200 bg-white md:hidden">
+      <div class="mx-auto max-w-6xl px-4 py-3 space-y-2">
+        <a href="#about-title" class="block rounded-lg px-3 py-2 hover:bg-slate-100">About</a>
+        <a href="#melbourne-title" class="block rounded-lg px-3 py-2 hover:bg-slate-100">Now in Melbourne</a>
+        <a href="#experience" class="block rounded-lg px-3 py-2 hover:bg-slate-100">Experience</a>
+        <a href="#projects" class="block rounded-lg px-3 py-2 hover:bg-slate-100"><a href="#thesis" class="block rounded-lg px-3 py-2 hover:bg-slate-100">Thesis</a>
+        <a href="#skills" class="block rounded-lg px-3 py-2 hover:bg-slate-100">Skills</a>
+        <a href="#contact" class="block rounded-lg px-3 py-2 hover:bg-slate-100">Contact</a>
+        <a href="./CV-Gonzalo-Garzon.pdf" class="block rounded-lg px-3 py-2 border border-slate-200">Download CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-emerald-900 to-emerald-800">
+      <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-16 md:grid-cols-[1.2fr,1fr]">
+        <div>
+          <p class="text-emerald-100 text-2xl sm:text-3xl font-semibold">Civil Engineer</p>
+          <div class="mt-2 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white ring-1 ring-white/20">
+            <span>5 years of experience in the Construction Business</span>
+          </div>
+          <h1 class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">Construction Management · Supply Chain · After‑Sales</h1>
+          <p class="mt-4 max-w-prose text-emerald-100">
+            I plan, coordinate, and deliver building projects with a focus on quality, safety, and clear communication across trades. Based in Melbourne (Work & Holiday 462), open to site/coordination roles.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#projects" class="rounded-2xl bg-white px-5 py-2.5 font-medium text-emerald-900 ring-1 ring-emerald-200 hover:shadow">See Projects</a>
+            <a href="#contact" class="rounded-2xl bg-white/10 px-5 py-2.5 font-medium text-white ring-1 ring-white/20 hover:bg-white/10">Contact</a>
+          </div>
+        </div>
+        <div class="relative flex justify-center md:justify-end">
+          <img src="./assets/PF.jpg" alt="Gonzalo Garzón" class="h-52 w-52 sm:h-72 sm:w-72 rounded-full border-4 border-white/20 object-cover shadow-lg -translate-x-4 -translate-y-2 md:-translate-x-8 md:-translate-y-4" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-6xl scroll-mt-20 px-4 py-14">
+      <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-3">
+        <div>
+          <h2 id="about-title" class="text-xl font-semibold scroll-mt-24">About me</h2>
+        </div>
+        <div class="prose prose-slate md:col-span-2">
+          <p>
+            Civil Engineer (UCC, Argentina) with experience in multi‑storey residential buildings: concrete structures, finishes coordination, procurement, and post‑handover troubleshooting. Strong in planning, quantity take‑offs, QA loops, and material control. Fluent Spanish, advanced English; intermediate Portuguese.
+          </p>
+          <ul>
+            <li>Software: AutoCAD, RAM Elements, Revit; Excel (pivots), Google Suite.</li>
+            <li>Certifications: IELTS (B2), FCE, White Card.</li>
+            <li>Mobility: Own vehicle and licence.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current work in Melbourne -->
+    <section id="melbourne" class="scroll-mt-20 border-y border-slate-200 bg-slate-50 py-14">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="mb-8 flex items-end justify-between gap-4">
+          <h2 id="melbourne-title" class="text-xl font-semibold scroll-mt-24">Now in Melbourne</h2>
+          <span class="text-sm text-slate-500">Since Jun 2025 – Present</span>
+        </div>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 class="text-lg font-semibold">Property Maintenance – Aurent (Mid‑term accommodation)</h3>
+            <p class="mt-2 text-sm text-slate-700">Reactive & planned maintenance for apartments and houses: doors & frames fixes, window hardware, safety latches, minor carpentry, reporting and updating property plans, coordinating trades when needed.</p>
+            <div class="mt-4 grid grid-cols-2 gap-3">
+              <img src="./assets/Aurent-1.jpg" alt="Aurent maintenance – latch installation" class="h-36 w-full rounded-xl object-cover"/>
+              <img src="./assets/Aurent-2.jpg" alt="Aurent – room setup and inspection" class="h-36 w-full rounded-xl object-cover"/>
+            </div>
+            <p class="mt-4 text-sm text-slate-500">Company site: <a href="https://aurent.online/" target="_blank" rel="noreferrer" class="underline">aurent.online</a></p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h3 class="text-lg font-semibold">Warehouse Assistant / Labourer – Zoogle Removals (Grace projects)</h3>
+            <p class="mt-2 text-sm text-slate-700">Logistics for commercial fit‑outs (ACU, Monash, others): container unloading, inventory allocation by floor/room matrix, picking & staging kits (chairs, tables, appliances, FF&E), on‑site placement and waste removal.</p>
+            <!-- Main hero image: containers -->
+            <figure class="mt-4">
+              <img src="./assets/Zoogle-1.jpg" alt="Containers yard – Grace / Zoogle" class="h-48 w-full rounded-xl object-cover sm:h-60"/>
+            </figure>
+            <!-- Gallery -->
+            <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              <img src="./assets/Zoogle-2.jpg" alt="Picking & staging items" class="h-28 w-full rounded-xl object-cover sm:h-32"/>
+              <img src="./assets/Zoogle-3.jpg" alt="Delivery list / prep chat" class="h-28 w-full rounded-xl object-cover sm:h-32"/>
+              <img src="./assets/Zoogle-4.jpg" alt="Containers and trucks – logistics" class="h-28 w-full rounded-xl object-cover sm:h-32"/>
+              <img src="./assets/Zoogle-5.jpg" alt="Apartment living room staging" class="h-28 w-full rounded-xl object-cover sm:h-32"/>
+              <img src="./assets/Zoogle-6.jpg" alt="Kitchen / living setup" class="h-28 w-full rounded-xl object-cover sm:h-32"/>
+              <img src="./assets/Zoogle-7.jpg" alt="Balcony / FF&E placement" class="h-28 w-full rounded-xl object-cover sm:h-32"/>
+            </div>
+            <p class="mt-4 text-sm text-slate-500">Company site: <a href="https://www.zooglehr.com.au/" target="_blank" rel="noreferrer" class="underline">zooglehr.com.au</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience timeline -->
+    <section id="experience" class="mx-auto max-w-6xl scroll-mt-20 px-4 py-14">
+      <h2 class="mb-8 text-xl font-semibold">Experience</h2>
+      <ol class="relative border-s border-slate-200">
+        <li class="mb-10 ms-6">
+          <span class="absolute -start-3 mt-1 h-6 w-6 rounded-full bg-emerald-600/90"></span>
+          <h3 class="font-semibold">Construction Site Manager – DYCSA</h3>
+          <p class="text-sm text-slate-600">Dec 2018 – Mar 2025 · Córdoba, AR</p>
+          <ul class="mt-2 list-inside list-disc text-sm text-slate-700">
+            <li>Supervised steel placement, formwork, and concrete pours for slabs, beams and columns; checked curing and test results.</li>
+            <li>Quantity take‑offs: concrete volumes, rebar, masonry, plaster, waterproofed walls; HVAC, fire, plumbing, and electrical BOQs.</li>
+            <li>Procurement & logistics: requests, supplier negotiation, delivery checks, stock tracking for risers and in‑unit services.</li>
+            <li>Trade coordination & certificates for contractors; progress tracking and QA/defect closure.</li>
+            <li>Fire systems & cistern structure follow‑up; site safety walks and toolbox talks.</li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-6">
+          <span class="absolute -start-3 mt-1 h-6 w-6 rounded-full bg-emerald-600/90"></span>
+          <h3 class="font-semibold">Supply Chain Assistant – DYCSA</h3>
+          <p class="text-sm text-slate-600">Materials control & purchasing support</p>
+          <ul class="mt-2 list-inside list-disc text-sm text-slate-700">
+            <li>Material registry and specifications to support site teams and future tenders.</li>
+            <li>Supplier sourcing and price comparisons; purchase orders and delivery schedules.</li>
+            <li>Improved traceability from warehouse to floors/units.</li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-6">
+          <span class="absolute -start-3 mt-1 h-6 w-6 rounded-full bg-emerald-600/90"></span>
+          <h3 class="font-semibold">After‑Sales Engineer – DYCSA</h3>
+          <p class="text-sm text-slate-600">Post‑handover inspections & fixes</p>
+          <ul class="mt-2 list-inside list-disc text-sm text-slate-700">
+            <li>Diagnosed root causes behind damp, cracks, openings misalignments, and radiator issues across delivered towers.</li>
+            <li>Planned remediation with trades; prioritized cause over symptom to prevent recurrence.</li>
+            <li>Client communication and documentation of fixes under warranty.</li>
+          </ul>
+        </li>
+      </ol>
+      <p class="mt-6 text-sm text-slate-500">Company site: <a class="underline" href="https://dycsa.com.ar/" target="_blank" rel="noreferrer">dycsa.com.ar</a></p>
+    </section>
+
+    <!-- Projects grouped by role -->
+    <section id="projects" class="scroll-mt-20 border-y border-slate-200 bg-slate-50 py-14">
+      <div class="mx-auto max-w-6xl px-4">
+        <h2 class="mb-8 text-xl font-semibold">Selected Projects</h2>
+
+        <!-- Construction Manager Gallery -->
+        <div class="mb-6 flex items-center justify-between">
+          <h3 class="text-lg font-semibold">Novaterra 3 – 155‑apartment residential building</h3>
+          <span class="text-sm text-slate-500">Córdoba, Argentina</span>
+        </div>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <img src="./assets/CM-1.jpg" alt="Gas risers installation" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-2.jpg" alt="Rebar cage for cistern / structural core" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-3.jpg" alt="Rebar cage – inspection" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-4.jpg" alt="Measurement & opening marking" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-5.jpg" alt="Bathroom rough‑ins – plumbing and gas" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-6.jpg" alt="Formwork and column works" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-7.jpg" alt="Concrete pour – slab" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-8.jpg" alt="Void slab system pods and reinforcement" class="h-52 w-full rounded-xl object-cover" />
+          <img src="./assets/CM-9.jpg" alt="Progress on upper floors" class="h-52 w-full rounded-xl object-cover" />
+        </div>
+        <ul class="mt-4 list-inside list-disc text-sm text-slate-700">
+          <li>Site supervision: steel, formwork and pours; QA checks and cube tests follow‑up.</li>
+          <li>BOQs for concrete, rebar, masonry, plaster, waterproofing; HVAC, fire, plumbing and electrical systems.</li>
+          <li>Materials: requests, supplier negotiation, receiving & acceptance; stock control for risers and in‑unit services.</li>
+          <li>Progress certificates for contractors; defect tracking and closure prior to handover.</li>
+        </ul>
+
+        <!-- Supply Chain Assistant (didactic blocks) -->
+        <div class="mt-10">
+          <h3 class="text-lg font-semibold">Supply Chain Assistant</h3>
+          <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3">
+            <div class="rounded-2xl border border-slate-200 bg-white p-4">
+              <h4 class="font-medium">Supplier negotiation</h4>
+              <p class="mt-1 text-sm text-slate-700">Sourcing, price benchmarking, PO creation, and delivery follow‑up for site priorities.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-4">
+              <h4 class="font-medium">Material registry</h4>
+              <p class="mt-1 text-sm text-slate-700">Spec‑linked catalog and warehouse ledger improved traceability to floors and units.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-4">
+              <h4 class="font-medium">Receiving & control</h4>
+              <p class="mt-1 text-sm text-slate-700">Checklists for quantities/quality on arrival; NCRs when required.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- After‑Sales Engineer (didactic blocks) -->
+        <div class="mt-10">
+          <h3 class="text-lg font-semibold">After‑Sales Engineer</h3>
+          <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3">
+            <div class="rounded-2xl border border-slate-200 bg-white p-4">
+              <h4 class="font-medium">Moisture & cracks</h4>
+              <p class="mt-1 text-sm text-slate-700">Tracing the origin (waterproofing, thermal bridges, settlement) and defining remediation.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-4">
+              <h4 class="font-medium">Openings & radiators</h4>
+              <p class="mt-1 text-sm text-slate-700">Diagnosed misalignment, seals, and heating leaks; coordinated trade fixes within warranty.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-4">
+              <h4 class="font-medium">Root‑cause mindset</h4>
+              <p class="mt-1 text-sm text-slate-700">Focused on cause over symptom to avoid repeat issues across towers.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thesis -->
+        <div class="mt-10">
+          <h3 class="text-lg font-semibold">Thesis (UCC)</h3>
+          <p class="mt-2 text-sm text-slate-700">Pathology analysis + structural redesign to complete a school extension. Review of defective concrete pours, proposed solutions, and calculation of remaining works.</p>
+          <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div class="rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-700">
+              <strong>Focus:</strong> diagnose execution issues; design alternatives; define completion plan.
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-700">
+              <strong>Outputs:</strong> drawings, calculation notes, and sequencing to resume works.
+            </div>
+          </div>
+          <!-- If you share images T-*.jpg, add them here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Thesis -->
+<section id="thesis" class="mx-auto max-w-6xl px-4 py-16">
+  <div class="mb-8 flex items-end justify-between gap-4">
+    <div>
+      <h2 class="text-xl font-semibold text-slate-900">Thesis – Pathology & Structural Analysis</h2>
+      <p class="mt-1 max-w-2xl text-slate-600">Extension works at Colegio San José (UCC). Diagnostic survey of construction pathologies and structural redesign to complete the project.</p>
+    </div>
+    <a href="./assets/PLANOS.pdf" download class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-white ring-1 ring-slate-900/10 hover:bg-slate-800">Download drawings (PDF)</a>
+  </div>
+
+  <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:gap-4">
+    <a href="./assets/thesis/thesis-1.jpg" target="_blank" class="group overflow-hidden rounded-xl border border-slate-200 bg-white"><img src="./assets/thesis/thesis-1.jpg" alt="Thesis – reinforcement detailing" class="h-40 w-full object-cover transition group-hover:scale-[1.02]" loading="lazy"/></a>
+    <a href="./assets/thesis/thesis-2.jpg" target="_blank" class="group overflow-hidden rounded-xl border border-slate-200 bg-white"><img src="./assets/thesis/thesis-2.jpg" alt="Thesis – model 3D and internal forces" class="h-40 w-full object-cover transition group-hover:scale-[1.02]" loading="lazy"/></a>
+    <a href="./assets/thesis/thesis-3.jpg" target="_blank" class="group overflow-hidden rounded-xl border border-slate-200 bg-white"><img src="./assets/thesis/thesis-3.jpg" alt="Thesis – bending moments diagram" class="h-40 w-full object-cover transition group-hover:scale-[1.02]" loading="lazy"/></a>
+    <a href="./assets/thesis/thesis-4.jpg" target="_blank" class="group overflow-hidden rounded-xl border border-slate-200 bg-white"><img src="./assets/thesis/thesis-4.jpg" alt="Thesis – pathology sheet and diagnosis" class="h-40 w-full object-cover transition group-hover:scale-[1.02]" loading="lazy"/></a>
+    <a href="./assets/thesis/thesis-5.jpg" target="_blank" class="group overflow-hidden rounded-xl border border-slate-200 bg-white sm:col-span-2 md:col-span-1"><img src="./assets/thesis/thesis-5.jpg" alt="Thesis – column and pile reinforcement" class="h-40 w-full object-cover transition group-hover:scale-[1.02]" loading="lazy"/></a>
+  </div>
+</section>
+
+<!-- Skills -->
+    <section id="skills" class="mx-auto max-w-6xl scroll-mt-20 px-4 py-14">
+      <h2 class="mb-6 text-xl font-semibold">Skills & Tools</h2>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Site supervision</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Concrete & rebar control</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Quantity take‑offs (BOQs)</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Procurement & suppliers</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Material receiving & QC</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">QA/defects & handover</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">HVAC / fire / plumbing follow‑up</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">AutoCAD · RAM · Revit</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Excel · Google Sheets</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Spanish · English · Portuguese</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">White Card</div>
+        <div class="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">Own vehicle</div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="scroll-mt-20 border-t border-slate-200 bg-white py-14">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-3">
+          <div>
+            <h2 class="text-xl font-semibold">Contact</h2>
+          </div>
+          <div class="space-y-4 md:col-span-2">
+            <p class="text-slate-700">Open to Site Supervisor / Coordinator / Engineering support roles in Melbourne.</p>
+            <ul class="space-y-1 text-slate-700">
+              <li><strong>Phone (AU):</strong> <a href="tel:+61418827267" class="underline">0418 827 267</a></li>
+              <li><strong>Email:</strong> <a href="mailto:tato_garzon@hotmail.com" class="underline">tato_garzon@hotmail.com</a></li>
+              <li><strong>LinkedIn:</strong> <a class="underline" href="https://www.linkedin.com/in/gonzalogarzon/" target="_blank" rel="noreferrer">/in/gonzalogarzon</a></li>
+              <li><strong>Location:</strong> Melbourne, Australia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-sm text-slate-500">
+    <div class="mx-auto max-w-6xl px-4">
+      © <span id="year"></span> Gonzalo Garzón. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // mobile menu
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn?.addEventListener('click', () => menu.classList.toggle('hidden'));
+    // close mobile menu on link click
+    document.querySelectorAll('#mobileMenu a[href^="#"]').forEach(a => {
+      a.addEventListener('click', () => menu.classList.add('hidden'));
+    });
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
